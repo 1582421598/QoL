@@ -156,16 +156,16 @@ namespace QoL
 
         private static void SetSkillTimer()
         {
-            if (IsReady && IsReady.GPGMMHJKEJM == 0)
+            if (IsReady && IsReady.BOPOAODINPJ == 0)
             {
                 if (Char1Select && Char1Select.activeInHierarchy)
-                    Char1Timer = IsReady.FODDLLMGGNB;
+                    Char1Timer = IsReady.LAOMALBPAIP;
                 if (Char2Select && Char2Select.activeInHierarchy)
-                    Char2Timer = IsReady.FODDLLMGGNB;
+                    Char2Timer = IsReady.LAOMALBPAIP;
                 if (Char3Select && Char3Select.activeInHierarchy)
-                    Char3Timer = IsReady.FODDLLMGGNB;
+                    Char3Timer = IsReady.LAOMALBPAIP;
                 if (Char4Select && Char4Select.activeInHierarchy)
-                    Char4Timer = IsReady.FODDLLMGGNB;
+                    Char4Timer = IsReady.LAOMALBPAIP;
             }
 
             if (Char1Timer > 0)
@@ -203,16 +203,16 @@ namespace QoL
 
         private static void SetBurstTimer()
         {
-            if (BisReady && BisReady.GPGMMHJKEJM == 0)
+            if (BisReady && BisReady.BOPOAODINPJ == 0)
             {
                 if (Char1Select && Char1Select.activeInHierarchy)
-                    Char1Btimer = BisReady.FODDLLMGGNB;
+                    Char1Btimer = BisReady.LAOMALBPAIP;
                 if (Char2Select && Char2Select.activeInHierarchy)
-                    Char2Btimer = BisReady.FODDLLMGGNB;
+                    Char2Btimer = BisReady.LAOMALBPAIP;
                 if (Char3Select && Char3Select.activeInHierarchy)
-                    Char3Btimer = BisReady.FODDLLMGGNB;
+                    Char3Btimer = BisReady.LAOMALBPAIP;
                 if (Char4Select && Char4Select.activeInHierarchy)
-                    Char4Btimer = BisReady.FODDLLMGGNB;
+                    Char4Btimer = BisReady.LAOMALBPAIP;
             }
 
             if (Char1Btimer > 0)
